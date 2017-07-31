@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Architector.Visa.InfiniiVision1000X.Browser.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConnectForm_Location" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">20, 20</Value>
+    </Setting>
+    <Setting Name="ConnectForm_AddressComboBox_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ErrorForm_ClientSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">320, 240</Value>
+    </Setting>
+    <Setting Name="Program_SettingsUpgrade" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="MainForm_Location" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">40, 40</Value>
+    </Setting>
+    <Setting Name="MainForm_ClientSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">960, 640</Value>
+    </Setting>
+    <Setting Name="Program_FilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

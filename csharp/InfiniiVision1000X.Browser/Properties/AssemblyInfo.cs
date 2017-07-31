@@ -1,14 +1,14 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("Architector.Visa.InviniVision1000")]
+[assembly: AssemblyTitle("Architector.Visa.InfiniiVision1000X.Browser")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Architector Inc.")]
-[assembly: AssemblyProduct("Architector.Visa.InviniVision1000")]
+[assembly: AssemblyProduct("Architector.Visa.InfiniiVision1000X.Browser")]
 [assembly: AssemblyCopyright("(c) 2017 Architector Inc.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
-[assembly: Guid("a0514f49-95a1-4b77-af0a-e743b7623aa8")]
+[assembly: Guid("e87ebdc7-ae93-425e-950a-54238f773e65")]
 [assembly: AssemblyVersion("1.0.0.*")]
