@@ -110,6 +110,22 @@ namespace Architector.Visa.Core
                 });
             }
 
+            public IBuilder<Action> Execute(Action<VisaConnection> visitor)
+            {
+                return new Builder(this, () =>
+                {
+                    visitor(this.Worker.Connection);
+                });
+            }
+
+            public IBuilder<Action<Type>> Execute<Type>(Func<VisaConnection, Type> visitor)
+            {
+                return new Builder<Type>(this, () =>
+                {
+                    return visitor(this.Worker.Connection);
+                });
+            }
+
             public IBuilder<Action> Shutdown()
             {
                 return new Builder(this, () =>

@@ -85,7 +85,7 @@ namespace Architector.Visa.InfiniiVision1000X.Browser
         private void UpdateDisplay()
         {
             this.UpdateDisplayButton.Enabled = false;
-            this.frontend.QueryBinary(":DISPlay:DATA? PNG").OnFail(this.ShowErrorDialog).OnSuccess((byte[] value) =>
+            this.frontend.QueryBinary(":SYSTem:DSP 'capture...';DSP '';:DISPlay:DATA? PNG").OnFail(this.ShowErrorDialog).OnSuccess((byte[] value) =>
             {
                 this.DisplayPictureBox.Image = (Image)this.imageConverter.ConvertFrom(value);
                 this.SaveDisplayAsToolStripMenuItem.Enabled = true;

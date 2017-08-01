@@ -98,6 +98,15 @@ namespace Architector.Visa.Core
                 return this;
             }
 
+            public virtual IBuilder<ActionType> OnFail(Action action)
+            {
+                this.failed.Add((Exception ignored) =>
+                {
+                    action();
+                });
+                return this;
+            }
+
             public virtual IBuilder<ActionType> OnComplete(Action action)
             {
                 this.completed.Add(action);
